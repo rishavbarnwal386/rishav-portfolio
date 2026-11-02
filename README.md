@@ -1,32 +1,22 @@
-# React + TypeScript + Vite
+# Rishav Kumar — QA Portfolio Final Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is the final portfolio preview with the new **Explore** section added to the existing portfolio.
 
-Currently, two official plugins are available:
+## Explore — AI Tools & Agents
+The Explore section contains the AI/QA content developed from the approved visual direction:
+- Building Smarter QA with AI
+- ChatGPT, Claude, Gemini, Cursor, Google AI
+- AI in My Workflow
+- What I Use AI For
+- Agentic QA Workspace
+- RJ Autonomous QA Platform
+- Animated grid, particles, glow and scan effects
+- Clickable View Details actions with detail modals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The existing portfolio sections remain in the project.
 
-## React Compiler
+## Run
+Double-click:
+`START-PORTFOLIO.bat`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The script installs dependencies automatically **only the first time**. After that, just double-click the same file.

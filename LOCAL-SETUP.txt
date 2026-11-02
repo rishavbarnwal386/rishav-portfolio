@@ -1,0 +1,7 @@
+RISHAV QA PORTFOLIO - LOCAL PREVIEW
+
+Double-click START-PORTFOLIO.bat.
+Only this launcher is required.
+It installs dependencies when needed, starts Vite, and opens http://127.0.0.1:5173/.
+
+The Connections section uses the new premium glass + neural network layout.
