@@ -10,6 +10,7 @@ import {
   Pill,
   Users,
   Zap,
+  HeartPulse,
   Dumbbell,
   BatteryCharging,
   type LucideIcon,
@@ -109,6 +110,22 @@ export const projects: Project[] = [
     link: "https://aumpharmacy.com/",
   },
   {
+    icon: HeartPulse,
+    iconBg: "bg-[#E11D48]",
+    title: "BeatO",
+    subtitle: "Healthcare & Diabetes Care Management",
+    description:
+      "Working on manual quality assurance across multiple modules of BeatO's healthcare management platform, including RM Dashboard, Leads Dashboard, consultation booking, Doctor Dashboard, Doctor Reports, agent management, and automated lead assignment. Validating application workflows, UI functionality, and business logic. Also performing basic database checks using SQL queries such as SELECT, INSERT, and UPDATE to verify records and data accuracy.",
+    tags: [
+      "Manual Testing",
+      "Functional Testing",
+      "Web Application Testing",
+      "Database Testing",
+      "Basic SQL",
+    ],
+    link: "https://beatoapp.com/",
+  },
+  {
     icon: Users,
     iconBg: "bg-[#D97706]",
     title: "QuickHire",
@@ -117,6 +134,16 @@ export const projects: Project[] = [
       "QA ownership for a recruitment platform covering job postings, candidate management, and interview scheduling. Executed functional, regression, smoke, and API testing (Postman) to validate core hiring workflows and service integrations.",
     tags: ["API Testing", "Postman", "Smoke Testing"],
     link: "https://www.quickhire.services",
+  },
+  {
+    icon: BatteryCharging,
+    iconBg: "bg-[#92400E]",
+    title: "Altricity",
+    subtitle: "Remote Jump Starter App",
+    description:
+      "Mobile QA for a Flutter-based hardware-companion app that jump-starts vehicle batteries via a connected device. Tested device connectivity across physical and cloud environments, and validated sensor-reading accuracy against reference voltmeter data.",
+    tags: ["Mobile Testing", "Integration"],
+    link: "https://altricity.io/",
   },
   {
     icon: Zap,
@@ -137,16 +164,6 @@ export const projects: Project[] = [
       "Mobile QA for a fitness and wellness app covering workout scheduling, membership renewal, and in-app payments. Executed functional, compatibility, and regression testing across devices to validate core flows before release.",
     tags: ["Mobile Testing", "Compatibility"],
     link: "https://play.google.com/store/apps/details?id=com.mycompany.fitness",
-  },
-  {
-    icon: BatteryCharging,
-    iconBg: "bg-[#92400E]",
-    title: "Altricity",
-    subtitle: "Remote Jump Starter App",
-    description:
-      "Mobile QA for a Flutter-based hardware-companion app that jump-starts vehicle batteries via a connected device. Tested device connectivity across physical and cloud environments, and validated sensor-reading accuracy against reference voltmeter data.",
-    tags: ["Mobile Testing", "Integration"],
-    link: "https://altricity.io/",
   },
 ];
 
